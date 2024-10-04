@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html class="fontawesome-i2svg-active fontawesome-i2svg-complete">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <!-- HTML Meta Tags -->
+  <title>PromptFix</title>
+  <meta name="description" content="PromptFix: You Prompt and We Fix the Photo">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://yeates.github.io/PromptFix-Page/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="PromptFix: You Prompt and We Fix the Photo">
+  <meta property="og:description" content="PromptFix: You Prompt and We Fix the Photo">
+  <meta property="og:image" content="https://yeates.github.io/PromptFix-Page/image_assets/preview.jpg">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="yeates.github.io/PromptFix-Page/">
+  <meta property="twitter:url" content="https://yeates.github.io/PromptFix-Page/">
+  <meta name="twitter:title" content="PromptFix: You Prompt and We Fix the Photo">
+  <meta name="twitter:description" content="PromptFix: You Prompt and We Fix the Photo">
+  <meta name="twitter:image" content="https://yeates.github.io/PromptFix-Page/image_assets/preview.jpg">
+
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W8F3QTRQ0F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-W8F3QTRQ0F');
+  </script>
+  <title>PromptFix: You Prompt and We Fix the Photo</title>
+
+  <link href="./assets/css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/bulma.min.css">
+  <link rel="stylesheet" href="./assets/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./assets/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./assets/css/tab_gallery.css">
+  <link rel="stylesheet" href="./assets/css/academicons.min.css">
+  <link rel="stylesheet" href="./assets/css/index.css">
+  <link rel="stylesheet" href="./assets/css/juxtapose.css">
+  <link rel="stylesheet" href="./assets/css/image_card_fader.css">
+  <link rel="stylesheet" href="./assets/css/image_card_slider.css">
+
+  <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Sofia ' rel='stylesheet'>
+
+</head>
+
+
+
+<body data-new-gr-c-s-check-loaded="14.1098.0" data-gr-ext-installed="">
+  <section class="hero" style="background-color:#ffffff">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-2 publication-title">
+              PromptFix: You Prompt and We Fix the Photo
+            </h1>
+
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                Yongsheng Yu<sup>1*</sup>&nbsp</span>
+              <span class="author-block">Ziyun Zeng<sup>1*</sup>&nbsp</span>
+              <span class="author-block">Hang Hua<sup>1</sup>&nbsp</span>
+              <span class="author-block">Jianlong Fu<sup>2</sup>&nbsp</span>
+              <span class="author-block">Jiebo Luo<sup>1</sup>&nbsp</span>
+            </div>
+            <br>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <sup>1</sup>University of Rochester &nbsp</span>
+              <span class="author-block">
+                <sup>2</sup>Microsoft Research &nbsp</span>
+            </div>
+            <br>
+            <div class="is-size-5 publication-venue">NeurIPS 2024</div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <a
+                  href="https://arxiv.org/pdf/2405.16785"
+                  class="external-link button"
+                >
+                  Paper
+                </a>
+                <a
+                  href="https://arxiv.org/abs/2405.16785"
+                  class="external-link button"
+                >
+                  arXiv
+                </a>
+                <a
+                  href="https://github.com/yeates/PromptFix"
+                  class="external-link button"
+                >
+                  Code
+                </a>
+                <a
+                  href="https://huggingface.co/datasets/yeates/PromptfixData"
+                  class="external-link button"
+                >
+                  Dataset
+                </a>
+                <a
+                  href="https:///yeates.github.io/PromptFix-Page/#bibtex"
+                  class="external-link button"
+                >
+                  BibTex
+                </a>
+              </div>
+            </div>
+            </div>
+          </div>
+          <!-- Paper video. -->
+          <!-- <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+              <div class="publication-video">
+                <iframe src="https://www.youtube.com/embed/"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div> -->
+          </div>
+          <!--/ Paper video. -->
+        <!-- <div class="has-text-justified">
+          <video id="dollyzoom" autoplay="" controls="" muted="" loop="" playsinline="" height="100%">
+            <source src="./video_assets/insight_illustration.mp4" type="video/mp4">
+          </video>
+        </div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="hero is-light is-small">
+    <div class="hero-body">
+        <div class="container">
+            <div id="results-carousel" class="carousel results-carousel">
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/dewatermark2_input.jpg" class="original-image" alt="Original Image 1">
+                      <img src="image_assets/dewatermark2.jpg" class="hover-image" alt="Hover Image 1">
+                  </div>
+                  </div>
+                  <div class="card-content has-text-centered">"Obliterate stamp from the photo."</div>
+                </div>
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/inpaint5_input.jpg" class="original-image" alt="Original Image 1">
+                      <img src="image_assets/inpaint5.jpg" class="hover-image" alt="Hover Image 1">
+                  </div>
+                  </div>
+                  <div class="card-content has-text-centered">"Exclude the individual on the left side from the image."</div>
+                </div>
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/dehazy5_input.jpg" class="original-image" alt="Original Image 1">
+                      <img src="image_assets/dehazy5.jpg" class="hover-image" alt="Hover Image 1">
+                  </div>
+                  </div>
+                  <div class="card-content has-text-centered">"Optimize the visual quality by dehazing this image."</div>
+                </div>
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/lowlight7_input.jpg" class="original-image" alt="Original Image 1">
+                      <img src="image_assets/lowlight7.jpg" class="hover-image" alt="Hover Image 1">
+                  </div>
+                  </div>
+                  <div class="card-content has-text-centered">"Upgrade the picture with light enhancement."</div>
+                </div>
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/inpaint2_input.jpg" class="original-image" alt="Original Image 1">
+                      <img src="image_assets/inpaint2.jpg" class="hover-image" alt="Hover Image 1">
+                  </div>
+                  </div>
+                  <div class="card-content has-text-centered">"Extract the boy from the image."</div>
+              </div>
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/inpaint3_input.jpg" class="original-image" alt="Original Image 1">
+                      <img src="image_assets/inpaint3.jpg" class="hover-image" alt="Hover Image 1">
+                  </div>
+                  </div>
+                  <div class="card-content has-text-centered">"Erase the man in the image."</div>
+              </div>
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/dewatermark1_input.jpg" class="original-image" alt="Original Image 1">
+                      <img src="image_assets/dewatermark1.jpg" class="hover-image" alt="Hover Image 1">
+                  </div>
+                  </div>
+                  <div class="card-content has-text-centered">"Scrub logo off the image."</div>
+                </div>
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/lowlight2_input.jpg" class="original-image" alt="Original Image 1">
+                      <img src="image_assets/lowlight2.jpg" class="hover-image" alt="Hover Image 1">
+                  </div>
+                  </div>
+                  <div class="card-content has-text-centered">"Brighten the image to improve visibility."</div>
+                </div>
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/desnow2_input.jpg" class="original-image" alt="Original Image 1">
+                      <img src="image_assets/desnow2.jpg" class="hover-image" alt="Hover Image 1">
+                  </div>
+                  </div>
+                  <div class="card-content has-text-centered">"Strip off snowflake of the photo."</div>
+                </div>
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/desnow1_input.jpg" class="original-image" alt="Original Image 1">
+                      <img src="image_assets/desnow1.jpg" class="hover-image" alt="Hover Image 1">
+                  </div>
+                  </div>
+                  <div class="card-content has-text-centered">"Filter snowy from this image"</div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                      <div class="image-container">
+                        <img src="image_assets/color3_input.jpg" class="original-image" alt="Original Image 1">
+                        <img src="image_assets/color3.jpg" class="hover-image" alt="Hover Image 1">
+                    </div>
+                    </div>
+                    <div class="card-content has-text-centered">"Enrich this photo with a myriad of colors."</div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                      <div class="image-container">
+                        <img src="image_assets/dehazy2_input.jpg" class="original-image" alt="Original Image 1">
+                        <img src="image_assets/dehazy2.jpg" class="hover-image" alt="Hover Image 1">
+                    </div>
+                    </div>
+                    <div class="card-content has-text-centered">"Improve image quality by removing blur."</div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                      <div class="image-container">
+                        <img src="image_assets/color13_input.jpg" class="original-image" alt="Original Image 1">
+                        <img src="image_assets/color13.jpg" class="hover-image" alt="Hover Image 1">
+                    </div>
+                    </div>
+                    <div class="card-content has-text-centered">"Inject a burst of color into this scene."</div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                      <div class="image-container">
+                        <img src="image_assets/color16_input.jpg" class="original-image" alt="Original Image 1">
+                        <img src="image_assets/color16.jpg" class="hover-image" alt="Hover Image 1">
+                    </div>
+                    </div>
+                    <div class="card-content has-text-centered">"Wrap this scene in a kaleidoscope of colors."</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Diffusion models equipped with language models demonstrate excellent controllability in image generation tasks, allowing image processing to adhere to human instructions. However, the lack of diverse instruction-following data hampers the development of models that effectively recognize and execute user-customized instructions, particularly in low-level tasks.
+            </p>
+            <p>
+              Moreover, the stochastic nature of the diffusion process leads to deficiencies in image generation or editing tasks that require the detailed preservation of the generated images. To address these limitations, we propose PromptFix, a comprehensive framework that enables diffusion models to follow human instructions to perform a wide variety of image-processing tasks.
+            </p>
+            <p>
+              First, we construct a large-scale instruction-following dataset that covers comprehensive image-processing tasks, including low-level tasks, image editing, and object creation. Next, we propose a high-frequency guidance sampling method to explicitly control the denoising process and preserve high-frequency details in unprocessed areas. Finally, we design an auxiliary prompting adapter, utilizing Vision-Language Models (VLMs) to enhance text prompts and improve the model's task generalization.
+            </p>
+            <p>
+              Experimental results show that PromptFix outperforms previous methods in various image-processing tasks. Our proposed model also achieves comparable inference efficiency with these baseline models and exhibits superior zero-shot capabilities in blind restoration and combination tasks.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+      <hr>
+      <!-- Inpainting -->
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3 has-text-centered">High-frequency Guidance Sampling</h2>
+
+          <!-- <div class="image-row">
+            <div class="image-container">
+                <img src="image_assets/color3_input.jpg" class="original-image" alt="Original Image 1">
+                <img src="image_assets/color3.jpg" class="hover-image" alt="Hover Image 1">
+                <div class="has-text-justified">
+                    <p>"A big rocket stands behind a man."</p>
+                </div>
+            </div>
+    
+            <div class="image-container">
+                <img src="image_assets/color8_input.jpg" class="original-image" alt="Original Image 2">
+                <img src="image_assets/color8.jpg" class="hover-image" alt="Hover Image 2">
+                <div class="has-text-justified">
+                    <p>"A big rocket stands behind a man."</p>
+                </div>
+            </div>
+        </div> -->
+        
+
+        </div>
+      </div>
+
+      <div class="columns is-centered" style="position:relative;left: 50%;transform: translateX(-50%);width: 1200px;">
+
+        <div class="column">
+          <div class="content">
+            <div class="tab_container">
+              <img src="image_assets/dehazy5_input.jpg" class="original-image" alt="Original Image 1">
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="content">
+            <div class="tab_container">
+              <div id="juxtapose-embed1" data-startingposition="50%" data-animate="true" class="juxtapose">
+                <div class="jx-slider">
+                  <div class="jx-handle " style="left: 54.53%;">
+                    <div class="jx-arrow jx-left"></div>
+                    <div class="jx-control">
+                      <div class="jx-controller" tabindex="0" role="slider" aria-valuenow="50" aria-valuemin="0"
+                        aria-valuemax="100"></div>
+                    </div>
+                    <div class="jx-arrow jx-right"></div>
+                  </div>
+                  <div class="jx-image jx-left " style="width: 54.53%;">
+                    <img src="./image_assets/hgs/dehazy5_wohgs.jpg" alt="" data-label="wo/ HGS">
+                  </div>
+                  <div class="jx-image jx-right " style="width: 45.47%;"><img src="./image_assets/hgs/dehazy5.jpg"
+                      alt="" data-label="PromptFix">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="columns is-centered" style="position:relative;left: 50%;transform: translateX(-50%);width: 1200px;">
+
+        <div class="column">
+          <div class="content">
+            <div class="tab_container">
+              <img src="image_assets/color3_input.jpg" class="original-image" alt="Original Image 1">
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="content">
+            <div class="tab_container">
+              <div id="juxtapose-embed1" data-startingposition="50%" data-animate="true" class="juxtapose">
+                <div class="jx-slider">
+                  <div class="jx-handle " style="left: 54.53%;">
+                    <div class="jx-arrow jx-left"></div>
+                    <div class="jx-control">
+                      <div class="jx-controller" tabindex="0" role="slider" aria-valuenow="50" aria-valuemin="0"
+                        aria-valuemax="100"></div>
+                    </div>
+                    <div class="jx-arrow jx-right"></div>
+                  </div>
+                  <div class="jx-image jx-left " style="width: 54.53%;">
+                    <img src="./image_assets/hgs/color3_wohgs.jpg" alt="" data-label="wo/ HGS">
+                  </div>
+                  <div class="jx-image jx-right " style="width: 45.47%;"><img src="./image_assets/hgs/color3.jpg"
+                      alt="" data-label="PromptFix">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="columns is-centered" style="position:relative;left: 50%;transform: translateX(-50%);width: 1200px;">
+
+        <div class="column">
+          <div class="content">
+            <div class="tab_container">
+              <img src="image_assets/color16_input.jpg" class="original-image" alt="Original Image 1">
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="content">
+            <div class="tab_container">
+              <div id="juxtapose-embed1" data-startingposition="50%" data-animate="true" class="juxtapose">
+                <div class="jx-slider">
+                  <div class="jx-handle " style="left: 54.53%;">
+                    <div class="jx-arrow jx-left"></div>
+                    <div class="jx-control">
+                      <div class="jx-controller" tabindex="0" role="slider" aria-valuenow="50" aria-valuemin="0"
+                        aria-valuemax="100"></div>
+                    </div>
+                    <div class="jx-arrow jx-right"></div>
+                  </div>
+                  <div class="jx-image jx-left " style="width: 54.53%;">
+                    <img src="./image_assets/hgs/color16_wohgs.jpg" alt="" data-label="wo/ HGS">
+                  </div>
+                  <div class="jx-image jx-right " style="width: 45.47%;"><img src="./image_assets/hgs/color16.jpg"
+                      alt="" data-label="PromptFix">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </section>
+  <hr>
+  <!-- References -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop bibtex-container">
+      <h2 class="title" style="text-align: left; color: #212121;">BibTeX</h2>
+      <pre><code>@inproceedings{yu2024promptfix,
+  title={PromptFix: You Prompt and We Fix the Photo},
+  author={Yu, Yongsheng and Zeng, Ziyun and Hua, Hang and Fu, Jianlong and Luo, Jiebo},
+  booktitle={NeurIPS},
+  year={2024}
+}</code></pre>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p style="text-align: center">
+            Thanks to website template <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </footer>
+
+
+  <script type="text/javascript">
+    var currentMethodList = ['ours', 'plain', 'full', 'aae', 'ip2p', 'p2p'];
+    var currentMethod = "ours";
+
+    function ChangeMethod(idx) {
+      var li_list = document.getElementById("method-view-ul").children;
+      for (i = 0; i < li_list.length; i++) {
+        li_list[i].className = "nav-link";
+      }
+      li_list[idx].className = "nav-link active";
+      currentMethod = currentMethodList[idx];
+
+      var image_nocturnal = document.getElementById('image_nocturnal');
+      var image_misty = document.getElementById('image_misty');
+      var image_crimson = document.getElementById('image_crimson');
+      var image_city = document.getElementById('image_city');
+      image_nocturnal.src = "./image_assets/outpaint/nocturnal/nocturnal_prompt" + (idx+1) + ".jpg";
+      image_misty.src = "./image_assets/outpaint/misty/misty_prompt" + (idx+1) + ".jpg";
+      image_crimson.src = "./image_assets/outpaint/crimson/crimson_prompt" + (idx+1) + ".jpg";
+      image_city.src = "./image_assets/outpaint/city/city_prompt" + (idx+1) + ".jpg";
+    }
+    function ChangePrompt(idx) {
+      var li_list = document.getElementById("prompt-view-ul").children;
+      for (i = 0; i < li_list.length; i++) {
+        li_list[i].className = "nav-link";
+      }
+      li_list[idx].className = "nav-link active";
+      var div_nocturnal = document.getElementById('div_nocturnal');
+      var div_misty = document.getElementById('div_misty');
+      var div_crimson = document.getElementById('div_crimson');
+      var div_city = document.getElementById('div_city');
+      if (idx == 0) {
+        div_nocturnal.style.display = "";
+        div_misty.style.display = "none";
+        div_crimson.style.display = "none";
+        div_city.style.display = "none";
+      } else if (idx == 1) {
+        div_nocturnal.style.display = "none";
+        div_misty.style.display = "";
+        div_crimson.style.display = "none";
+        div_city.style.display = "none";
+      }
+      else if (idx == 2){
+        div_nocturnal.style.display = "none";
+        div_misty.style.display = "none";
+        div_crimson.style.display = "";
+        div_city.style.display = "none";
+      }
+      else if (idx == 3){
+        div_nocturnal.style.display = "none";
+        div_misty.style.display = "none";
+        div_crimson.style.display = "none";
+        div_city.style.display = "";
+      }
+    }
+  </script>
+
+  <script src="./assets/js/juxtapose.js"></script>
+  <script src="./assets/js/popper.min.js"></script>
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script defer="" src="./assets/js/fontawesome.all.min.js"></script>
+  <script src="./assets/js/bulma-carousel.min.js"></script>
+  <script src="./assets/js/bulma-slider.min.js"></script>
+  <script src="./assets/js/magnifier.js"></script>
+  <script>
+    // 为每个 image-container 添加点击切换图片功能
+    const containers = document.querySelectorAll('.image-container');
+
+    containers.forEach(container => {
+        const originalImage = container.querySelector('.original-image');
+        const hoverImage = container.querySelector('.hover-image');
+
+        container.addEventListener('mouseenter', () => {
+            container.classList.add('active');
+        });
+
+        // 鼠标移出时也恢复原始图片
+        container.addEventListener('mouseleave', () => {
+            container.classList.remove('active');
+        });
+    });
+
+    $(document).ready(function () {
+    // Check for click events on the navbar burger icon
+
+    var options = {
+        slidesToScroll: 1,
+        slidesToShow: 2,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        pagination: false,
+    }
+
+    // Initialize all div with carousel class
+    bulmaCarousel.attach('.carousel', options);
+})
+</script>
+
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+
+</html>
